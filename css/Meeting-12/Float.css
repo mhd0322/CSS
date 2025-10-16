@@ -1,0 +1,65 @@
+.Image {
+    float: left;
+    width: 150px;
+}
+
+.background-float {
+    clear: left;
+    width: 150px;
+    height: 150px;
+    background: aqua;
+}
+
+.container {
+    width: 100%;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    background-color: #f0f0f0;
+}
+
+.content {
+    float: right;
+    width: 70%;
+    background-color: #e0e0e0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.Float-left {
+    float: left;
+}
+
+.Float-right {
+    float: right;
+}
+
+ul.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.navigation li {
+    float: left;
+}
+
+ul.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navigation li a:hover {
+    background-color: #111;
+}
