@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  background-image: url(https://zh.million-wallpapers.ru/wallpapers/3/18/16365854027247277739/web_page.jpg);
+}
+
+.card {
+  width: 360px;
+  background: #f7f5f5;
+  border-radius: 22px;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 40px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
+  animation: fadeSlide 1s ease-out forwards, floatCard 4s ease-in-out infinite;
+}   
+
+.top-bg {
+  height: 180px;
+  background: url(./Assets/image/gunung.avif);
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-img {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  border: 6px solid #f7f5f5;
+  margin-top: -70px;
+  object-fit: cover;
+  animation: zoomIn 1s ease-out forwards;
+}
+
+.name {
+  margin-top: 18px;
+  font-size: 22px;
+  font-weight: 900;
+  color: #212121;
+}
+
+.role {
+  margin-top: -5px;
+  color: #2f61d2;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.desc {
+  margin: 18px 35px;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.socials {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.socials a {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card-btn {
+  margin-top: 25px;
+  background: #2f6177;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.card-btn:hover {
+  background: #244d5f;
+}
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes floatCard {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
