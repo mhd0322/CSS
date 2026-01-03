@@ -1,0 +1,19 @@
+h1 {
+    color: wheat;
+    text-transform: uppercase;
+}
+
+.Paragraf-1 {
+    color: teal;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+#Header-1 {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+input [type="text"] {
+    border: 1px solid red;
+}

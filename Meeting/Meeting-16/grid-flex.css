@@ -1,0 +1,29 @@
+nav {
+    background: #f3793d;
+    color: #ffffff;
+    padding: 20px;
+}
+
+nav#withFlex {
+    display: flex;
+}
+
+nav#withFlex div {
+    margin-right: 20px;
+}
+
+nav#withFlex div:last-child {
+    margin-left: auto;
+}
+
+nav#withGrid {
+    background: #95bddc;
+    color: #ffffff;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+nav#withGrid div:last-child {
+    grid-column: 10;
+}
