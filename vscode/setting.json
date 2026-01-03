@@ -1,0 +1,56 @@
+{
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "vscode-icons",
+
+  "editor.fontFamily": "JetBrains Mono, Fira Code, Consolas, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 22,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.renderLineHighlight": "all",
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      { "scope": "keyword", "settings": { "foreground": "#C678DD", "fontStyle": "bold" } },
+      { "scope": "string", "settings": { "foreground": "#98C379" } },
+      { "scope": "constant.numeric", "settings": { "foreground": "#56B6C2" } },
+      { "scope": "entity.name.tag", "settings": { "foreground": "#E06C75" } },
+      { "scope": "variable", "settings": { "foreground": "#E5C07B" } },
+      { "scope": "comment", "settings": { "foreground": "#7F848E", "fontStyle": "italic" } },
+      { "scope": "entity.name.function", "settings": { "foreground": "#61AFEF" } },
+      { "scope": "punctuation.definition.tag", "settings": { "foreground": "#ABB2BF" } },
+      { "scope": "meta.brace", "settings": { "foreground": "#7EE787" } },
+      { "scope": "storage.type", "settings": { "foreground": "#FF79C6" } }
+    ]
+  },
+
+  "terminal.integrated.fontFamily": "JetBrains Mono, monospace",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorBlinking": true,
+
+  "window.zoomLevel": 0,
+  "explorer.compactFolders": false,
+
+  "powermode.enabled": true,
+  "powermode.presets": "particles",
+  "powermode.comboTimeout": 2,
+  "powermode.shake.enabled": false,
+  "powermode.explosion.duration": 300,
+  "powermode.explosion.size": 5,
+  "powermode.combo.counterEnabled": false
+}

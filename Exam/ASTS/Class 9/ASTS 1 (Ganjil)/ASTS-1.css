@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to top, #007cc2 0%, #4bc9ff 100%);
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #016599;
+  color: white;
+  text-align: center;
+  padding: 40px 20px 60px;
+}
+
+header h1 {
+  margin: 0 0 5px 0;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-img {
+  display: block;
+  margin: 0 auto 15px auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 0 0 0 4px white, 0 0 0 5px #ddd;
+}
+
+.skills h2,
+.contact h2 {
+  color: #3f51b5;
+  margin-top: 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+footer {
+  background-color: #016599;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9em;
+  width: 100%;
+}

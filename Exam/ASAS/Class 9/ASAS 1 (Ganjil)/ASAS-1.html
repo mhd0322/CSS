@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ASAS 1 (Ganjil)</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(https://picsum.photos/id/29/1550/780);
+      background-repeat: no-repeat;
+      font-family: Arial;
+    "
+  >
+    <div
+      style="
+        display: flex;
+        gap: 20px;
+        padding: 25px;
+        width: 650px;
+        border-radius: 15px;
+        background: #fdfdfd;
+        box-shadow: 0 20px 40px #d5dff0;
+        animation: fade 1s ease, floatCard 3s ease-in-out infinite;
+      "
+    >
+      <img
+        src="https://picsum.photos/id/1/200/300"
+        style="
+          width: 150px;
+          height: 150px;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          border-radius: 50%;
+          border: 4px solid #fff;
+          animation: fade 1s ease, zoomImg 3s ease-in-out infinite;
+        "
+      />
+
+      <div style="padding: 20px; border-radius: 12px">
+        <h1 style="font-size: 30px; margin: 0; animation: fade 1s ease">
+          Muhammad Donald Arthur
+        </h1>
+
+        <p
+          style="
+            font-size: 22px;
+            margin: 6px 0;
+            color: #666;
+            animation: fade 1.1s ease;
+          "
+        >
+          Web Developer & Designer
+        </p>
+
+        <p style="font-size: 15px; color: #777; animation: fade 1.2s ease">
+          Passionate about creating intuitive and dynamic user experiences.
+        </p>
+
+        <a href="#" class="btn" style="animation: fade 1.3s ease"
+          >Explore Now</a
+        >
+      </div>
+    </div>
+
+    <style>
+      @keyframes fade {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes floatCard {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-8px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes zoomImg {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.08);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      a.btn {
+        display: inline-block;
+        padding: 9px 13px;
+        background: #2d6cdf;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 6px;
+        transition: 0.3s;
+      }
+
+      a.btn:hover {
+        background: #1f55b6;
+        transform: scale(1.05);
+      }
+    </style>
+  </body>
+</html>
